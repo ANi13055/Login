@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
     <!-- external stylesheet -->
@@ -41,10 +44,15 @@
             <h1>Login</h1>
 
             <div class="login-info">
-                <input class="detail name" type="text" placeholder="Enter Name" onclick="smile()">
-                <input class="detail" type="email" placeholder="Enter Email-ID">
-                <input class="detail" type="password" placeholder="Enter Password">
+                <input class="detail name" type="text" placeholder="Name" required>
+
+                <input class="detail" type="email" placeholder="Email-ID" required>
+
+                <i class="fa fa-eye" aria-hidden="true"></i>
+                <input class="detail" id="passwd" name="passwd" type="password" placeholder="Password" required>
                 <br>
+
+                <!-- submit button -->
                 <input type="submit" value="Submit">
             </div>
         </section>

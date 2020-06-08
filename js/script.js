@@ -12,3 +12,16 @@ $("body").mousemove(function (event) {
         'transform': 'rotate(' + rot + 'deg)'
     });
 });
+
+const pass = document.querySelector('#passwd');
+const show = document.querySelector('.fa-eye');
+show.addEventListener('click', () => {
+    if (passwd.type === 'password') {
+        passwd.type = 'text';
+        show.classList.add('hide');
+    } else {
+        passwd.type = 'password';
+        show.classList.remove('hide');
+    }
+
+});
