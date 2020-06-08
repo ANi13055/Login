@@ -148,9 +148,10 @@ h1 {
     left: 0;
     margin: 20px 0;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #ffffff;
     font-size: 2em;
+    letter-spacing: 2px;
 }
 
 .login-info {
@@ -163,6 +164,7 @@ h1 {
 input {
     outline: none;
     caret-color: var(--primary-color);
+    letter-spacing: 1px;
 }
 
 .detail {
@@ -173,7 +175,6 @@ input {
     border: none;
     border-bottom: 1px solid var(--primary-color);
     color: #ffffff;
-    letter-spacing: 1px;
 }
 
 .name {
@@ -188,7 +189,6 @@ input[type="submit"] {
     color: var(--primary-color);
     font-weight: 600;
     font-size: 0.9em;
-    letter-spacing: 1px;
     width: 250px;
 }
 
